@@ -1,0 +1,98 @@
+{
+  "algorithm": "DecisionTreeClassifier",
+  "feature_cols": [
+    "sum_eigenvalues",
+    "omnivariance",
+    "eigenentropy",
+    "anisotropy",
+    "planarity",
+    "linearity",
+    "surface_variation",
+    "sphericity",
+    "verticality",
+    "height"
+  ],
+  "support_radius_m": 3.0,
+  "classes": [
+    0,
+    1
+  ],
+  "label_names": {
+    "0": "libre",
+    "1": "ocupado"
+  },
+  "children_left": [
+    1,
+    -1,
+    -1
+  ],
+  "children_right": [
+    2,
+    -1,
+    -1
+  ],
+  "feature": [
+    2,
+    -2,
+    -2
+  ],
+  "threshold": [
+    0.7559497952461243,
+    -2.0,
+    -2.0
+  ],
+  "value": [
+    [
+      0.500000000000015,
+      0.5000000000000219
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "reference_metrics": {
+    "f1_macro": 0.988,
+    "recall_libre": 0.97,
+    "recall_ocupado": 0.999,
+    "source": "02_features_entrenamiento_validacion.ipynb, Seccion 10/12 (2026-07-14)"
+  },
+  "metadata": {
+    "export_date_utc": "2026-07-14T19:24:21.584371+00:00",
+    "algorithm": "DecisionTreeClassifier",
+    "hyperparameters": {
+      "class_weight": "balanced",
+      "random_state": 42
+    },
+    "support_radius_m": 3.0,
+    "feature_cols": [
+      "sum_eigenvalues",
+      "omnivariance",
+      "eigenentropy",
+      "anisotropy",
+      "planarity",
+      "linearity",
+      "surface_variation",
+      "sphericity",
+      "verticality",
+      "height"
+    ],
+    "n_training_frames": 1062,
+    "loso_reference_metrics": {
+      "f1_macro": 0.988,
+      "recall_libre": 0.97,
+      "recall_ocupado": 0.999,
+      "source": "02_features_entrenamiento_validacion.ipynb, Seccion 10/12 (2026-07-14)"
+    },
+    "library_versions": {
+      "scikit-learn": "1.9.0",
+      "numpy": "2.5.0",
+      "joblib": "1.5.3",
+      "python": "3.13.0"
+    }
+  }
+}
